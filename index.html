@@ -4,25 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!-- Beloww here is the document set up for using links for stylesheets and specific fonts from Google -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./css/site.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 
+  Below is a the standard default styling done by defualt. This has been commented out so that the code 
+  does not run and/or cause any issues whatsoever. -->
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+-->
+
 </head>
 <body>
+  <main>
+    <div class="blank-container"> <!-- Creating a div container for being able to manuipulate container to move and be sized as needed. -->
+      <div class="main-upper"> <!-- Creating this div container for being able to size out the image and positioning as needed. -->
+        <img id="qrcode-image" src="./images/image-qr-code.png" alt="QR Code - Frontend Mentor">
+      </div>
+      <div class="main-lower"> <!-- Created this div container solely for the purpose of holding the text areas in one place but still divided by paragraph tags -->
+        <p id="p-heading">Improve your front&hyphen;end skills by building projects</p>
+        <p id="p-content">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level&period;</p>
+      </div>
+    </div>
+  </main>
+  <!--Improve your front-end skills by building projects
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level-->
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">SJ Martin </a>.
+    </div>
+  </footer>
+  
 </body>
+
+<!-- Checked all HTML code with a validator to ensure that there are absolutely no erros and all code 100% has passed successfully -->
 </html>

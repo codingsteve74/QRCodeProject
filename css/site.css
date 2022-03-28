@@ -1,0 +1,76 @@
+/* Setting up the styling file for the designs. Setting up the font size, weight for the page and font type. */
+
+/* HTML and main elements styles */
+html {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    max-width: 375px;
+    background-color: hsl(220, 15%, 55%);
+}
+
+footer {
+    text-align: center;
+    visibility: hidden;
+}
+
+/* HTNL Classes styles */
+.blank-container {
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px 30px 30px 30px;
+    margin: 30px;
+    border-radius: 25px;
+    width: 100%;
+}
+
+/* HTNL ID's styles */
+#p-heading {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#p-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 400;
+}
+
+#qrcode-image {
+    width: 100%;
+    border-radius: 25px;
+}
+
+/* Media Queries styling for fullscreen */
+@media screen and (min-width: 1000px){
+    body {
+        max-width: 1440px;
+    }
+
+    .blank-container {
+        width: 375px;
+        margin-left: 40em;
+        margin-top: 8em;
+    }
+
+    .main-upper {
+        text-align: center;
+        width: 375px;
+    }
+
+    #qrcode-immage {
+        width: 375px;
+    }
+
+    footer {
+        visibility: visible;
+        margin-left: 35em;
+        font-size: 12px;
+    }
+
+ /* Checked the CSS file code with a CSS code validator and it was able to pass successfully with no issues */  
+}
