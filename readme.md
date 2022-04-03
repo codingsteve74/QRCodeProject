@@ -1,5 +1,5 @@
 # Frontend Mentor - QR Code Solution Component Solution
-![](./screenshots/fullscreen-desktop.png)
+![fullsccreen desktop screenshot](./screenshots/fullscreen-desktop.png)
 ![](./screenshots/mobile-development.png)
 
 ## Table of Contents
